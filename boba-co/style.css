@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Open+Sans&display=swap');
+
+:root {
+    --back-color: black;
+    --txt-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+html {
+    background-color: #FEC763;
+    margin: 20px;
+}
+
+.grid-container {
+    background-image: url(images/79f3d2206a67529203fa761f652e170e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-gap: 20px;
+}
+.top {
+    background-color: black;
+    display: flex;
+}
+
+.top h4 {
+    margin: auto;
+    font-size: 100px;
+    font-family: 'Allison', cursive;
+    color: white;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    margin-top: 10px;
+    
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+a {
+    display: grid;
+    justify-items: center;
+    text-decoration: none;
+    padding: 20px;
+    background-color: var(--back-color);
+    color: var(--txt-color);
+    font-size: 1.6em;
+}
+
